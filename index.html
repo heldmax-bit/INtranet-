@@ -15,7 +15,7 @@
         :root {
             --primary: #1E5BA8;
             --primary-dark: #003D7A;
-            --secondary: #E63946;
+            --secondary: #4DA3D9;
             --accent: #0066CC;
             --success: #06D6A0;
             --warning: #FFB703;
@@ -45,7 +45,7 @@
             height: 100%;
             background:
                 radial-gradient(circle at 20% 50%, rgba(30, 91, 168, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(230, 57, 70, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(77, 163, 217, 0.08) 0%, transparent 50%),
                 radial-gradient(circle at 40% 20%, rgba(0, 102, 204, 0.08) 0%, transparent 50%);
             pointer-events: none;
             z-index: 0;
@@ -249,7 +249,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(0, 102, 204, 0.06), rgba(230, 57, 70, 0.03));
+            background: linear-gradient(135deg, rgba(0, 102, 204, 0.06), rgba(77, 163, 217, 0.06));
             opacity: 0;
             transition: opacity 0.4s ease;
         }
@@ -993,7 +993,7 @@
             position: absolute;
             top: -1px;
             right: -1px;
-            background: #E63946;
+            background: var(--primary-dark);
             color: white;
             border: none;
             width: 24px;
@@ -1005,7 +1005,7 @@
         }
 
         .preview-remove:hover {
-            background: #d62828;
+            background: var(--accent);
         }
 
         .btn-submit {
